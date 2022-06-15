@@ -1,0 +1,192 @@
+body
+{
+    font-family: 'Montserrat-Regualar', sans-serif;  text-align: center;
+}
+
+h2,
+h3
+{
+    font-family: 'Montserrat-SemiBold', sans-serif;
+}
+
+p
+{
+    color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading
+{
+    font-family: 'Montserrat';  font-size: 3.5rem;  font-weight: 900;     line-height: 1.5;
+}
+
+.section-heading
+{
+    font-size: 3rem; font-weight: 700; line-height: 1.5;
+}
+
+.container-fluid
+{
+    padding: 7% 15% ;
+}
+
+.Download-img-apple
+{
+    position: relative;  bottom: 4px;
+}
+.Download-img-playstore
+{
+    position: relative;  bottom: 2px;
+}
+
+
+
+/* Navigation Bar */
+
+.navbar
+{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand
+{
+    font-family: 'Ubuntu', sans-serif;  font-size: 2.5rem;  font-weight: Bold;
+}
+
+.nav-item
+{
+    padding: 0 18px;
+}
+
+.nav-link
+{
+    font-family: 'Montserrat-Thin', sans-serif;  font-size: 1.5rem;
+}
+
+/* Download Buttons */
+.Download-button
+{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title
+{text-align: left;
+
+    color: #fff;  background-color: #ff4c68;
+}
+
+#title .container-fluid
+{
+    padding: 3% 15% 7%;
+}
+
+.phone-image
+{
+    position: relative;
+}
+.title-image
+{
+    position: absolute;  right: 30%;  width: 60%;  transform: rotate(25deg);
+}
+
+/* Features section */
+
+#features
+{
+    position: relative;  background-color: #fff;
+}
+
+.feature-box
+{
+    padding: 5%;
+}
+
+.three-img-section
+{
+  margin-bottom: 1rem;
+}
+.three-img-section-heading
+{
+  font-weight: 700;  white-space: nowrap;
+}
+
+/* Testimonial section */
+
+#testimonials
+{
+    color: #fff;     background-color: #ef8172;
+}
+
+.testimonial-text
+{
+    font-size: 3rem; font-weight: 700; line-height: 1.5;
+}
+
+.testimonial-img
+{
+    width: 20%;  margin: 20px;     border-radius: 100%;
+}
+
+
+
+#press
+{
+    padding-bottom: 3%;  background-color: #ef8172;
+}
+
+.press-logo
+{
+    width: 15%;  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing
+{
+    padding: 100px;
+}
+
+.dog-breed
+{
+    font-weight: 700;  white-space: nowrap;
+}
+
+.price-text
+{
+    font-size: 3rem; font-weight: 700; line-height: 1.5;
+}
+
+.pricing-column
+{
+    padding: 3% 2%;
+}
+
+/* Second-Last Section */
+
+#cta
+{
+    color: #fff;
+    background-color: #ff4c68;
+}
+
+/* Last Section */
+
+.footer-img
+{
+    margin: 20px 10px;
+}
+
+
+@media (max-width: 1028px)
+{
+    #title
+    {
+        text-align: center;
+    }
+    .title-image
+    {
+        position: static;  transform: rotate(0);
+    }
+}
